@@ -39,4 +39,4 @@ jobs:
       run: 'gcloud info'
 
     - name: Build Docker Image
-        run: gcloud builds submit --tag us-central1-docker.pkg.dev/robust-catalyst-400818/notely-ar-repo/notely:latest .
+      run: gcloud builds submit --tag us-central1-docker.pkg.dev/robust-catalyst-400818/notely-ar-repo/notely:latest .
